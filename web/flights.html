@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Flights</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .flight-item{ 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .flight-gallery{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            max-width: 1200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Available Flights</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Flights</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="flight-gallery">
+        <div class="flight-item">
+            <img src="airindia.jpg" alt="Flight 1">
+            <h2>Air india</h2>
+        </div>
+        <div class="flight-item">
+            <img src="jetairways.jpg" alt="Flight 2">
+            <h2>Jet Airways</h2>
+        </div>
+        <div class="flight-item">
+            <img src="indigo.jpg" alt="Flight 3">
+            <h2>Indigo</h2>
+        </div>
+    </div>
+</body>
+</html>

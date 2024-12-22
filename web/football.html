@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Equipment</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+        background-image: url("cricket.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; 
+        color: white;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .shopping-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            max-width: 1200px;
+        }
+        .item-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            margin: 25px;
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 5px;
+            width: 200px;
+        }
+        .price {
+            color: black;
+            font-weight: bold;
+        }
+        .item-image {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px;
+        }
+        .item-details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 100%;
+            background-color: #333;
+            padding: 5px; /* Adjust padding as needed */
+            margin: 0; /* Remove default margin */
+        }
+        .save-button {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Football Equipment</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cricket.html">Cricket Equipment</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Our Football Equipments Collection</h2>
+            <div class="shopping-container">
+                <div class="item-container">
+                    <img src="football1.jpg" alt="Item 1" class="item-image">
+                    <div class="item-details">
+                        <p>Football</p>
+                            <div class="price">
+                                <p>Price: $30</p> 
+                            </div>
+                    </div>
+                </div>
+        
+                <div class="item-container">
+                    <img src="gloves.jpg" alt="Item 2" class="item-image">
+                    <div class="item-details">
+                        <p>Goalkeeper Gloves</p>
+                            <div class="price">
+                                <p>Price: $50</p> 
+                            </div>
+                    </div>
+                </div>
+        
+                <div class="item-container">
+                    <img src="pads.jpg" alt="Item 3" class="item-image">
+                    <div class="item-details">
+                        <p>Shin Guards</p>
+                            <div class="price">
+                                <p>Price: $25</p> 
+                            </div>
+                    </div>
+                </div>
+        
+                <div class="item-container">
+                    <img src="boots.jpg" alt="Item 4" class="item-image">
+                    <div class="item-details">
+                        <p>Football Boots</p>
+                            <div class="price">
+                                <p>Price: $100</p> 
+                            </div>
+                    </div>
+                </div>
+        
+                <div class="item-container">
+                    <img src="cones.jpg" alt="Item 5" class="item-image">
+                    <div class="item-details">
+                        <p>Training Cones</p>
+                        <div class="price">
+                           <p>Price: $20</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sports Centre. All rights reserved.</p>
+    </footer>
+</body>
+</html>
